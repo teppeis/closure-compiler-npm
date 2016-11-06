@@ -23,8 +23,7 @@
 'use strict';
 
 var should = require('should');
-var compilerPackage = require('../');
-var Compiler = compilerPackage.compiler;
+var Compiler = require('../');
 require('mocha');
 
 describe('closure-compiler node bindings', function() {

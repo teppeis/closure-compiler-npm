@@ -24,7 +24,7 @@
 'use strict';
 
 var spawn = require('child_process').spawn;
-var compilerPath = require.resolve('../../compiler.jar');
+var compilerPath = require.resolve('./compiler.jar');
 var path = require('path');
 var contribPath = path.dirname(compilerPath) + '/contrib';
 

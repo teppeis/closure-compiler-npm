@@ -23,8 +23,7 @@
 'use strict';
 
 var should = require('should');
-var compilerPackage = require('../');
-var Compiler = compilerPackage.compiler;
+var Compiler = require('../');
 var packageInfo = require('../package.json');
 var Semver = require('semver');
 var compilerVersionExpr = /^Version:\sv(.*)$/m;
