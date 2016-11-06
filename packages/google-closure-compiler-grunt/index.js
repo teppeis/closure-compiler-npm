@@ -31,7 +31,7 @@ module.exports = function(grunt, extraArguments) {
   var vinylfs = require('vinyl-fs');
   var fs = require('fs');
   var path = require('path');
-  var gulpCompiler = require('google-closure-compiler-gulp')({extraArguments: extraArguments});
+  var gulpCompiler = require('gulp-google-closure-compiler')({extraArguments: extraArguments});
   var Transform = require('stream').Transform;
   var gulpCompilerOptions = {
     streamMode: 'IN',

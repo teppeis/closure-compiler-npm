@@ -34,7 +34,7 @@
   "homepage": "https://developers.google.com/closure/compiler/",
   "dependencies": {
     "google-closure-compiler-grunt": "^20161024.1.0",
-    "google-closure-compiler-gulp": "^20161024.1.0",
+    "gulp-google-closure-compiler": "^20161024.1.0",
     "google-closure-compiler-jar": "^20161024.1.0"
   },
   "devDependencies": {
