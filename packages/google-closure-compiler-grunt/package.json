@@ -1,0 +1,53 @@
+{
+  "name": "google-closure-compiler-grunt",
+  "version": "20161024.1.0",
+  "description": "Check, compile, optimize and compress Javascript with Closure-Compiler",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chadkillingsworth/closure-compiler-npm.git"
+  },
+  "keywords": [
+    "javascript",
+    "compiler",
+    "optimizer",
+    "minifier",
+    "closure",
+    "gulpplugin",
+    "gruntplugin"
+  ],
+  "main": "index.js",
+  "contributors": [
+    {
+      "name": "Chad Killingsworth",
+      "email": "chadkillingsworth@gmail.com"
+    }
+  ],
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/google/closure-compiler/issues"
+  },
+  "homepage": "https://developers.google.com/closure/compiler/",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "google-closure-compiler-gulp": "^20161024.1.0",
+    "google-closure-compiler-jar": "^20161024.1.0",
+    "gulp-util": "^3.0.7",
+    "vinyl-fs": "^2.2.1"
+  },
+  "devDependencies": {
+    "lodash": "^4.6.1",
+    "mocha": "^2.3.4",
+    "should": "^8.2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  }
+}
