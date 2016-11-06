@@ -33,8 +33,8 @@
     "should": "^8.2.2"
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap",
     "lerna": "lerna",
+    "postinstall": "lerna bootstrap",
     "test": "lerna run test"
   },
   "engines": {
