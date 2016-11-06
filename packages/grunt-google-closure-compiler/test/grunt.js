@@ -66,7 +66,7 @@ var mockGrunt = {
   registerMultiTask: function() {}
 };
 
-var closureCompiler = require('../').grunt(mockGrunt);
+var closureCompiler = require('../')(mockGrunt);
 
 
 function gruntTaskOptions(options) {
