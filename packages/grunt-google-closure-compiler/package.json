@@ -1,5 +1,5 @@
 {
-  "name": "google-closure-compiler-grunt",
+  "name": "grunt-google-closure-compiler",
   "version": "20161024.1.0",
   "description": "Check, compile, optimize and compress Javascript with Closure-Compiler",
   "repository": {
