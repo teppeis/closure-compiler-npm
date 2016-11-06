@@ -27,8 +27,7 @@ var should = require('should');
 var gulp = require('gulp');
 var sourcemaps = require('gulp-sourcemaps');
 var File = require('vinyl');
-var compilerPackage = require('../');
-var closureCompiler = compilerPackage.gulp();
+var closureCompiler = require('../')();
 var fs = require('fs');
 require('mocha');
 

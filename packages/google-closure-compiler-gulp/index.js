@@ -34,9 +34,9 @@
  * @return {function(Object<string,string>|Array<string>):Object}
  */
 module.exports = function(initOptions) {
-  var filesToJson = require('./concat-to-json');
-  var jsonToVinyl = require('./json-to-vinyl');
-  var Compiler = require('../node/closure-compiler');
+  var filesToJson = require('./lib/concat-to-json');
+  var jsonToVinyl = require('./lib/json-to-vinyl');
+  var Compiler = require('google-closure-compiler-jar');
   var gutil = require('gulp-util');
   var PluginError = gutil.PluginError;
   var stream = require('stream');
