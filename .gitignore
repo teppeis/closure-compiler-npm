@@ -1,4 +1,3 @@
 node_modules
 npm-debug.log
-compiler.jar
-contrib/
+lerna-debug.log
