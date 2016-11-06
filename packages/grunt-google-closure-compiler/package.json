@@ -41,8 +41,7 @@
   },
   "devDependencies": {
     "lodash": "^4.6.1",
-    "mocha": "^2.3.4",
-    "should": "^8.2.2"
+    "mocha": "^2.3.4"
   },
   "scripts": {
     "test": "mocha"
