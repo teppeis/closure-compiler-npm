@@ -22,9 +22,9 @@
 
 'use strict';
 
-var grunt_plugin = require('./lib/grunt');
-var gulp_plugin = require('./lib/gulp');
-var Compiler = require('./lib/node/closure-compiler');
+var grunt_plugin = require('google-closure-compiler-grunt');
+var gulp_plugin = require('google-closure-compiler-gulp');
+var Compiler = require('google-closure-compiler-jar');
 
 module.exports = {
   grunt: grunt_plugin,
